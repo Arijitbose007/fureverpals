@@ -18,3 +18,15 @@ main .p {
     color: #5b5963;
 
 }
+
+.goog-logo-link,.goog-te-gadget span,.goog-te-banner-frame,#goog-gt-tt, .goog-te-balloon-frame,div#goog-gt-{
+    display: none!important;
+  }
+  
+  .goog-te-gadget {
+    font-size:0px;
+  }
+  
+  .skiptranslate goog-te-gadget #text{
+    display: none!important;
+  }

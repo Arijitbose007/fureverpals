@@ -105,10 +105,22 @@
               </button>
             </a>
           </li>
+           <!-- google translate -->
+						<div id="google_translate_element">
+							<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+						  </div>
+                          <script>
+                            function googleTranslateElementInit() {  
+                                new google.translate.TranslateElement(  
+                                {pageLanguage: 'en'},  
+                                'google_translate_element'  
+                             );  
+                            }
+                          </script>
           <!-- <li>
             <a id="theme-toggle"><img src="Assets/Images/sun.svg" width="50px" id="switch"></a>
-          </li>
-        </ul> -->
+          </li>-->
+        </ul> 
 
       </div>
 
@@ -127,7 +139,7 @@
           Fill up the form below and donate your pets.
         </p>
       </div>
-      <form id="survey-form" action="https://formspree.io/f/xayaokzl" method="POST">
+      <form id="survey-form" action="https://formspree.io/f/xdoraeya" method="POST">
         <div class="lg:w-1/2 md:w-2/3 mx-auto">
           <div class="flex flex-wrap -m-2">
             <div class="p-2 w-1/2">
@@ -247,7 +259,7 @@
             <div class="p-2 w-full">
               <input type="checkbox" name="check" id="check" required>
               <span class="p-1 font-medium text-gray-900">
-                I've read and agree to the Terms and Conditions of PetMe.
+                I've read and agree to the Terms and Conditions of FurEver Pals.
               </span>
             </div>
             <div class="p-4 w-full">
