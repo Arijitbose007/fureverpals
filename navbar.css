@@ -148,3 +148,10 @@
 .skiptranslate goog-te-gadget #text{
   display: none!important;
 }
+
+/* Add your existing CSS styles here */
+
+/* Your CSS code remains the same */
+/* .translate-toggle {
+  display: none;
+} */
